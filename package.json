@@ -1,0 +1,32 @@
+{
+  "name": "week11-fullstack-blog-backend",
+  "version": "1.0.0",
+  "description": "Week 11 fullstack internship project: a blog API server with Express, Mongoose, and MongoDB Atlas support.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "dev:watch": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node tests/api.test.js",
+    "check:mongo": "node scripts/checkMongo.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "rest-api",
+    "backend",
+    "mongoose",
+    "mongodb",
+    "week11",
+    "blog-api"
+  ],
+  "author": "Intern Project",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1"
+  }
+}

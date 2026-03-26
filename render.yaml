@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: week11-fullstack-blog-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: DATA_STORE_MODE
+        value: mongo
+      - key: MONGO_URI
+        sync: false
