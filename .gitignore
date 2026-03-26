@@ -1,6 +1,9 @@
 node_modules/
 .npm-cache/
+.vercel/
 .env
 server.log
 server-error.log
 *.log
+
+.vercel
